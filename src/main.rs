@@ -72,7 +72,7 @@ fn moving_average(data: &[f64], window_size: usize) -> Vec<f64> {
                     .and_then(|s| s.parse::<f64>().ok())
                     .ok_or("Missing or invalid speed alarm")?;
 
-                timestamps.push(timestamp);
+                //timestamps.push(timestamp);
                 current_altitudes.push(current_altitude);
                 zero_altitudes.push(zero_altitude);
                 relative_altitudes.push(relative_altitude);
